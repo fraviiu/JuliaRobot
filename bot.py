@@ -38,7 +38,7 @@ def canal_command(m):
 		resposta = choice(list) 
 		lista = [""] 
 		respostas = choice(lista) 
-		bot.reply_to(m, "●❯───────────────────────❮●\n \n*{}*  \n\n                        {}@Obikyu\n●❯───────────────────────❮●".format(resposta , respostas ), parse_mode='Markdown',reply_markup=gen_markup()) 
+		bot.reply_to(m, "●❯─────────────────────❮●\n \n*{}*  \n\n                        {}@Obikyu\n●❯─────────────────────❮●".format(resposta , respostas ), parse_mode='Markdown',reply_markup=gen_markup()) 
 		
 	#####
 def gen_markup():
@@ -58,7 +58,7 @@ def canal_command(m):
 		resposta = choice(list) 
 		lista = [""] 
 		respostas = choice(lista) 
-		bot.reply_to(m, "●❯───────────────────────❮●\n \n*{}*  \n\n                        {}@Obikyu\n●❯───────────────────────❮●".format(resposta , respostas ), parse_mode='Markdown',reply_markup=gen_markup())
+		bot.reply_to(m, "●❯─────────────────────❮●\n \n*{}*  \n\n                        {}@Obikyu\n●❯─────────────────────❮●".format(resposta , respostas ), parse_mode='Markdown',reply_markup=gen_markup())
 	             
 	#####am
 def gen_markup():
@@ -78,6 +78,6 @@ def canal_command(m):
 		resposta = choice(list) 
 		lista = [""] 
 		respostas = choice(lista) 
-		bot.reply_to(m, "●❯───────────────────────❮●\n \n*{}*  \n\n                        {}@Obikyu\n●❯───────────────────────❮●".format(resposta , respostas ), parse_mode='Markdown',reply_markup=gen_markup()) 
+		bot.reply_to(m, "●❯─────────────────────❮●\n \n*{}*  \n\n                        {}@Obikyu\n●❯─────────────────────❮●".format(resposta , respostas ), parse_mode='Markdown',reply_markup=gen_markup()) 
 		
 bot.polling( )
